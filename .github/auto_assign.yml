@@ -1,4 +1,7 @@
+must_reviwers:
+  - reviewerA
 reviewers:
   - reviewerA
   - reviewerB
   - reviewerC
+number_of_reviewers: 2
