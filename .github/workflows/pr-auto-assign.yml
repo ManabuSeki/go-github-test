@@ -7,7 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: execute
-      uses: ManabuSeki/pr-auto-assign-action@v0.0.1
-      with:
-        github_token: ${{ secrets.github_token }}
-        config_path: .github/auto_assign.yml
+        uses: ManabuSeki/pr-auto-assign-action@v0.0.1
+        with:
+          github_token: ${{ secrets.github_token }}
+          config_path: .github/auto_assign.yml
+
