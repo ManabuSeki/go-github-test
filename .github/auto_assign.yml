@@ -1,8 +1,5 @@
 must_reviewers:
-  - reviewerA
+  - ManabuSeki
 reviewers:
-  - reviewerB
-  - reviewerC
-  - reviewerD
-  - reviewerE
-number_of_reviewers: 3
+  - bu-bu
+number_of_reviewers: 1
