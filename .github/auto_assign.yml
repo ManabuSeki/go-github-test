@@ -1,7 +1,8 @@
 must_reviewers:
   - reviewerA
 reviewers:
-  - reviewerA
   - reviewerB
   - reviewerC
+  - reviewerD
+  - reviewerE
 number_of_reviewers: 3
