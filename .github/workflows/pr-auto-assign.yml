@@ -1,0 +1,19 @@
+name: pr-auto-assign
+on:
+  pull_request:
+    types:
+      - opened
+      - ready_for_review
+
+jobs:
+  pr-auto-assign:
+    name: pr-auto-assign
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.draft == false
+    steps:
+      - name: execute
+        uses: ManabuSeki/pr-auto-assign-action@v0.0.2
+        with:
+          github_token: ${{ secrets.github_token }}
+          config_path: .github/auto_assign.yml
+
