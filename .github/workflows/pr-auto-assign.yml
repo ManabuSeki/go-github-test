@@ -12,7 +12,7 @@ jobs:
     if: github.event.pull_request.draft == false
     steps:
       - name: execute
-        uses: ManabuSeki/pr-auto-assign-action@v0.0.3
+        uses: ManabuSeki/pr-auto-assign-action@v1
         with:
           github_token: ${{ secrets.github_token }}
           config_path: .github/auto_assign.yml
