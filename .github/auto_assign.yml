@@ -2,5 +2,5 @@ must_reviewers:
   - ManabuSeki
 reviewers:
   - bu-bu
-number_of_reviewers: 2
+number_of_reviewers: 0
 add_assignees: true
